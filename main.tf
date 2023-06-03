@@ -8,6 +8,7 @@ resource "aws_instance" "my_vm" {
 }
 resource "aws_s3_bucket" "vince_s3_bucket" {
  bcuket = "vince-s3-bucket-ndop"
-
+}
  tags = {
   Nmae = var.name_tag,
+ }
